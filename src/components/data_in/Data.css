@@ -1,0 +1,15 @@
+.table-container {
+    margin-top: 10px;
+    width: 700px;
+    height: 100vh; /* Adjust the height as needed */
+  }
+  .button-container {
+    margin-top: 300px;
+  }
+  .button{
+    margin-left: 10px;
+  }
+  .return-button-container button::before {
+    content: "\2190"; /* 添加左箭头 */
+    margin-right: 10px; /* 调整箭头与按钮文本的间距 */
+  }

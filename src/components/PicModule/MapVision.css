@@ -1,0 +1,51 @@
+
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    max-height: 86vh; /* Set a maximum height as a percentage of its containing element */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  .grid-img-container {
+    margin-bottom: 10px; /* Adjust the margin between images */
+  }
+  
+  .grid-img {
+    width: 100%; /* Set the width to fill the container */
+    height: auto; /* Maintain the aspect ratio */
+    object-fit: cover; /* Adjust this property as needed (cover, contain, etc.) */
+  }
+  .enlarged-image-container {
+    width: 200px; /* 调整图像容器的宽度 */
+    height: 200px; /* 调整图像容器的高度 */
+    border: 2px solid black; /* 添加边框 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .grid-img {
+    width: 100%; /* 图像填充图像容器 */
+    height: 100%; /* 图像填充图像容器 */
+  }
+  .action-button {
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .zoom-button {
+    background-color: #1890ff; /* 蓝色 */
+    color: #fff; /* 白色 */
+  }
+  
+  .download-button {
+    background-color: #52c41a; /* 绿色 */
+    color: #fff; /* 白色 */
+  }
+  
+  .action-button:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* 悬停时的背景色 */
+  }
